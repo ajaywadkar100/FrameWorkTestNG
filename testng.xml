@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke Test">
+
+    <listeners>
+        <listener class-name="FrameworkProject.Listeners"></listener>
+    </listeners>
+
+    <test name="HomePage">
+        <classes>
+            <class name="FrameworkProject.HomePage"/>
+        </classes>
+    </test>
+
+    <test name="validateNavbar">
+        <classes>
+            <class name="FrameworkProject.validateNavbar"/>
+        </classes>
+    </test>
+
+    <test name="Validate Title">
+        <classes>
+            <class name="FrameworkProject.validateTitle"/>
+        </classes>
+    </test>
+
+</suite>
