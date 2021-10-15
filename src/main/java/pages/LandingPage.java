@@ -16,8 +16,11 @@ public class LandingPage {
         this.driver = driver;
     }
 
-    public WebElement getLogin() {
-        return driver.findElement(signin);
+    public Login getLogin()
+    {
+        driver.findElement(signin).click();
+        Login lp = new Login(driver);
+        return lp;
     }
 
     public WebElement getTitle() {
