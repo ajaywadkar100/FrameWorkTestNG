@@ -22,7 +22,9 @@ public class base {
         FileInputStream fis = new FileInputStream("src/test/resources/data.properties");
 
         prop.load(fis);
-        String browserName = prop.getProperty("browser");
+        //mvn test -Dbrowser=chrome
+        //String browserName = prop.getProperty("browser");
+        String browserName = System.getProperty("browser");
         System.out.println(browserName);
 
         System.setProperty("webdriver.chrome.driver", "src/test/resources/driver/chromedriver");
