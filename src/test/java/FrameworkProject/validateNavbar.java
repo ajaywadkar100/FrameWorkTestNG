@@ -15,6 +15,7 @@ import java.io.IOException;
 public class validateNavbar extends base {
 
     public static Logger log = LogManager.getLogger(base.class.getName());
+    LandingPage l;
     public WebDriver driver;
 
     @BeforeTest
@@ -25,7 +26,7 @@ public class validateNavbar extends base {
 
     @Test
     public void navigationBar() throws IOException {
-        LandingPage l = new LandingPage(driver);
+        l = new LandingPage(driver);
         Assert.assertTrue(l.getNavbar().isDisplayed());
     }
 
