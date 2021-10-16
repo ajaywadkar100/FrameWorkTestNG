@@ -5,7 +5,6 @@
     <listeners>
         <listener class-name="FrameworkProject.Listeners"></listener>
     </listeners>
-
     <test name="HomePage">
         <classes>
             <class name="FrameworkProject.HomePage"/>
