@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="40.119" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="25.937" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="15"/>
     <property name="webdriver.chrome.driver" value="src/test/resources/driver/chromedriver"/>
@@ -14,7 +14,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/ajaywadkar/IdeaProjects/E2EProject/E2EProject/target/surefire/surefirebooter17807378871266790667.jar /Users/ajaywadkar/IdeaProjects/E2EProject/E2EProject/target/surefire 2021-10-17T00-21-08_701-jvmRun1 surefire7187276377782218732tmp surefire_010841176870610421576tmp"/>
+    <property name="sun.java.command" value="/Users/ajaywadkar/IdeaProjects/E2EProject/E2EProject/target/surefire/surefirebooter11804547091405818641.jar /Users/ajaywadkar/IdeaProjects/E2EProject/E2EProject/target/surefire 2021-10-17T00-48-50_920-jvmRun1 surefire11851440087027692203tmp surefire_010984364115182662475tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/ajaywadkar/IdeaProjects/E2EProject/E2EProject/target/test-classes:/Users/ajaywadkar/IdeaProjects/E2EProject/E2EProject/target/classes:/Users/ajaywadkar/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/ajaywadkar/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/ajaywadkar/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/ajaywadkar/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/ajaywadkar/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/ajaywadkar/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/ajaywadkar/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/ajaywadkar/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/ajaywadkar/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/ajaywadkar/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/ajaywadkar/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/ajaywadkar/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/ajaywadkar/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/ajaywadkar/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/ajaywadkar/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/ajaywadkar/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/ajaywadkar/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/ajaywadkar/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/ajaywadkar/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/ajaywadkar/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/ajaywadkar/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0.jar:/Users/ajaywadkar/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/ajaywadkar/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/Users/ajaywadkar/.m2/repository/org/apache/logging/log4j/log4j-api/2.14.1/log4j-api-2.14.1.jar:/Users/ajaywadkar/.m2/repository/org/apache/logging/log4j/log4j-core/2.14.1/log4j-core-2.14.1.jar:/Users/ajaywadkar/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/ajaywadkar/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/ajaywadkar/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/ajaywadkar/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/ajaywadkar/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/ajaywadkar/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/Users/ajaywadkar/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/Users/ajaywadkar/IdeaProjects/E2EProject/E2EProject/target/surefire/surefirebooter17807378871266790667.jar"/>
+    <property name="surefire.real.class.path" value="/Users/ajaywadkar/IdeaProjects/E2EProject/E2EProject/target/surefire/surefirebooter11804547091405818641.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="15.0.2+7-27"/>
@@ -55,37 +55,31 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="59.0"/>
   </properties>
-  <testcase name="homePage[ajaywadkar1000@gmail.com, Admin@12345](1)" classname="FrameworkProject.HomePage" time="4.235">
+  <testcase name="titleValidation" classname="FrameworkProject.validateTitle" time="0.083">
     <system-out><![CDATA[chrome
+chrome
+chrome
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 4698
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+    <system-err><![CDATA[SSttaarrttiinngg  CChhrormoemDerDirivevre r9 944..00..44660066..66S11 t (ar4(t148ibn17g88 Cfb5h7r88o38mfee5Dd80rib3v1cer69 bb849e4e5.d010.eb4a61002c65.6261917 b1(b84415e4859b117e85a-r0e2ff55s82/31b78r1ed8a50n4bc19hc1-56h9-ebarbde4sef/s541/6bera00a6n2@c5{h2#1-17h21ea80d45s4}/9)154-r6 eofns /pborr0ta6 n3@c{1h0#1-929h0
+e4O}an)ld yos nl/ opc4ao6lr0t  co36n3@n7{e1c#4t
+1iO2onnl0ys4  }alo)c raelo  ancl olpnoonwreetcd t4.i6
+o9Pnls0e 0aa
+rsOen el syea lel ohlcotawtlpe sdc.:
+/o/Pnclnheeracosemt eidsorenies  vehatrrte.p sca:hr/lo/mclihourwome.dmo.erd
+gP/rlsieveacseuerr i.scteyh-ecr oohnmtsituipmds.:e/or/ragcth/rsieoomcnuesdr irfitovyre-rc .oscnushgrigdoeemrisauttmii.ooonnrsg /sosenc  ufkroeiret psiyu-ncgggo enCsshtirdiooemrneasDt rioionvn eksre  efspoairfn egs.u 
+CghgreosmteiDornsiv eorn  kseaefep.in
+g ChromeDriver safe.
 ChromeDriver was started successfully.
-Oct 17, 2021 12:21:18 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully.
+ChromeDriver was started successfully.
+Oct 17, 2021 12:49:03 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Oct 17, 2021 12:49:03 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Oct 17, 2021 12:49:03 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="navigationBar" classname="FrameworkProject.validateNavbar" time="0.094">
-    <system-out><![CDATA[chrome
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 25761
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Oct 17, 2021 12:21:30 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="titleValidation" classname="FrameworkProject.validateTitle" time="0.049">
-    <system-out><![CDATA[chrome
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 38973
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Oct 17, 2021 12:21:40 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
+  <testcase name="homePage[ajaywadkar1000@gmail.com, Admin@12345](1)" classname="FrameworkProject.HomePage" time="1.083"/>
+  <testcase name="navigationBar" classname="FrameworkProject.validateNavbar" time="0.123"/>
 </testsuite>
