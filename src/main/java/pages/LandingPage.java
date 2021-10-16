@@ -8,9 +8,9 @@ public class LandingPage {
 
     public WebDriver driver;
 
-    By signin = By.cssSelector("a[href*='sign_in']");
-    By title = By.cssSelector(".text-center>h2");
-    By navbar = By.cssSelector(".nav.navbar-nav.navbar-right>li>a");
+    private By signin = By.cssSelector("a[href*='sign_in']");
+    private By title = By.cssSelector(".text-center>h2");
+    private By navbar = By.cssSelector(".nav.navbar-nav.navbar-right>li>a");
 
     public LandingPage(WebDriver driver) {
         this.driver = driver;

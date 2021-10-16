@@ -5,6 +5,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -27,8 +28,14 @@ public class base {
         String browserName = System.getProperty("browser");
         System.out.println(browserName);
 
-        System.setProperty("webdriver.chrome.driver", "src/test/resources/driver/chromedriver");
-        driver = new ChromeDriver();
+        if (browserName.contains("chrome"))
+            System.setProperty("webdriver.chrome.driver", "src/test/resources/driver/chromedriver");
+            ChromeOptions options = new ChromeOptions();
+            if (browserName.contains("headless"))
+            {
+                options.addArguments("headless");
+            }
+        driver = new ChromeDriver(options);
 /*
         if(browserName.equalsIgnoreCase("chrome"))
         {
@@ -58,6 +65,7 @@ public class base {
         //String destinationFile = System.getProperty("report/"+testCaseName+".png");
         FileUtils.copyFile(source, new File("report/"+testCaseName+".png"));
         //return destinationFile;
+        //String projectdir=System.getProperty("user.dir");
         File filepath=new File("report/"+testCaseName+".png");
         String destinationFile=filepath.getPath();
         return destinationFile;

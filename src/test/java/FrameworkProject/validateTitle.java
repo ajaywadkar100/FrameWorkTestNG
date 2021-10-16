@@ -22,6 +22,7 @@ public class validateTitle extends base {
     public void init() throws IOException {
         driver = initializeDriver();
         driver.get(prop.getProperty("url"));
+
     }
 
     @Test
